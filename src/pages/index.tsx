@@ -1,10 +1,10 @@
-import Head from "next/head";
+import Head from 'next/head'
 
 type Props = {
-  title: string;
-};
+  title: string
+}
 
-export default function Home({ title = "React Avançado" }: Props) {
+export default function Home({ title = 'React Avançado' }: Props) {
   return (
     <div>
       <Head>
@@ -16,5 +16,5 @@ export default function Home({ title = "React Avançado" }: Props) {
 
       <footer>footer</footer>
     </div>
-  );
+  )
 }
