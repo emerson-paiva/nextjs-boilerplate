@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
   *,
-  *::after 
+  *::after,
   *::before {
     margin: 0;
     padding: 0;
